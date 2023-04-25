@@ -1,0 +1,98 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    background-color: #2A2F4F;
+}
+#Play
+{
+ 
+
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    border-radius:10px ;
+    border: none; 
+}
+
+.one
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.heading
+{
+    position: absolute;
+    top: 12%;
+    left: 38%;
+    color: white;
+   font-size: 20px;
+
+}
+.line
+{
+    position: relative;
+    top: 140px;
+    height: 10px;
+    background-color: aliceblue;
+}
+#box
+{
+    width: 150px;
+    height: 120px;
+    background-color: white;
+    position: absolute;
+    top: 160px;
+    left: 600px;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#Number
+{
+    position: absolute;
+    top: 350px;
+    left: 400px;
+    width: 220px;
+    height: 120px;
+    border: 5px solid white;
+    font-size: 50px;
+    text-align: center;
+    background-color:white ;
+    color: black;
+   
+}
+#check
+{
+    position: absolute;
+    top: 520px;
+    left: 435px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+#Text
+{
+    color: white;
+    position: absolute;
+    top: 330px;
+    left: 800px;
+}
+#chance
+{
+    color: white;
+    position: absolute;
+    top: 380px;
+    left: 800px;
+}
+#score
+{
+    color: white;
+    position: absolute;
+    top: 420px;
+    left: 800px;
+}

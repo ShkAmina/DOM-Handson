@@ -1,0 +1,56 @@
+body
+{
+    background-color: #FFEAEA;
+}
+.heading
+{
+    text-align: center;
+    color: #2A2F4F;
+}
+.Que
+{
+    color: #9A208C;
+   
+}
+pre
+{
+    
+    font-size: 18px;
+    margin-top: 0;
+    margin-left: 60px;
+   color:#E11299 ;
+}
+#h1
+{
+    color: #E49393;
+}
+#changeDiamension
+{
+    display: flex;
+    flex-direction: row;
+}
+.child
+{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    margin: 5px;
+}
+#change
+{
+    color: #9A208C;
+}
+#clock
+{
+    display: flex;
+    font-size: 50px;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    margin: 10px;
+   
+   font-size: 30px;
+   font-weight: bold;
+}

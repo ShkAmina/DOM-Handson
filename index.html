@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>DOM-Handson</title>
+</head>
+<body>
+    <h1 class="heading">Document Object Model(DOM)</h1>
+
+    <h3 class="Que">Q.1 - Write the code to access element which is having id as "text" ?</h3>
+    <pre id="text" >Ans - const Text = document.getElementById('text')</pre>
+
+    <h3 class="Que">Q.2 - Write the code to access element which is having tag as "h1" ?</h3>
+    <pre>Ans - const h1 = document.getElementsByTagName('h1')
+       </pre>
+
+    <h3 class="Que">Q.3 - Write the code to access element which is having class as "box" ?</h3>
+    <pre class="box">Ans - const Box = document.getElementsByClassName("box") </pre>
+
+    <h3 class="Que">Q.4 - Change the heading from ""Hello"" to ""Hello World"" using DOM functions" ?</h3>
+    <h1 id="change">Hello</h1>
+
+    <h3 class="Que">Q.5 - Create an HTML page having content as Hello world and a button named Replace Text. When user will click on this button page content should be changed to "Welcome to Elevation academy" ?</h3>
+    <h1 id="h1"> Hello</h1>
+    <button onclick="ChangeText()">Replace Text</button>
+
+    <h3 class="Que">Q.6 -  Add one style attribute and give text color as red and id attribute and give the id value as ""heading"" in the above given h1 tag using DOM functions" ?</h3>
+    <h1 id="color">Heading</h1>
+
+    <h3 class="Que">Q.7 - Create three cards on HTML page and arrange them using flex property in row or horizontal direction and also create button at the bottom named "Change Flex direction". When user clicks on this button, the cards arrangement should be changed to vertical direction.  ?</h3>
+    <div id="changeDiamension">
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+        <div class="child"></div>
+    </div>
+    <button onclick="clickme()">Change Flex direction</button>
+    <h3 class="Que">Q.8 - What’s the difference between window vs document? ?</h3>
+    <ul>
+        <li> <span style="font-weight: bold;">Document</span>
+             - A document is an object inside the window object and we use a document object for manipulation inside the document.</li>
+    </ul>
+    <ul>
+        <li> <span style="font-weight: bold;">Window</span>
+             - The window object represents a window in the browser. An object of the window is created automatically by the browser. Windows is the object of the browser, it is not the object of javascript. The javascript objects are string, array, date etc.</li>
+    </ul>
+    <h3 class="Que">Q.9 - Write code to implement timer clock using JS -- display HH:MM:SS -- the time should keep updating every second ?</h3>
+    <div id="clock">8:10:45</div>
+
+    <a href="./Game.html">DOM Game</a>
+    
+
+</body>
+<script src="./scrpt.js"></script>
+</html>
